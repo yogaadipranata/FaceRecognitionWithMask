@@ -1,20 +1,47 @@
-<h1 align="center">Hi 👋, I'm I Wayan Yoga Adi Pranata</h1>
-<h3 align="center">I am an undergraduate electrical engineering student with a background in computer technology. During my studies, I learned about Software Engineering, Database Systems, Computer Architecture & Operating System, Machine Learning, Artificial Intelligence, and UI/UX.</h3>
+## Face Recognition with Mask using Convolutional Neural Network & Haar Cascade
 
-- 🌱 I’m currently studying at **Udayana University**
+A real-time face mask detection system built with Python, using OpenCV, TensorFlow, Keras, CNN (MobileNetV2), and Haar Cascade for face detection. Developed as a college assignment, this project classifies whether a person is wearing a mask or not in live video. The model was trained on a Kaggle dataset via Google Colab and demonstrates the integration of deep learning with computer vision for real-world safety applications.
 
-- 📫 How to reach me **yogaadipranata10@gmail.com**
+### 🛠️ Tech Stack
+* Python
+* OpenCV
+* CNN-MobileNetV2
+* Haar Cascade
+* Google Colab
+* Jupyter Notebook
 
-# face-mask-detection
-This project is one of the tasks I got during college. In this project, I used the python programming language and created it in a Jupyter Notebook. In this project, I use OpenCV, TensorFlow, Keras, Mobilenet V2, Haarcascade, and datasets. For the dataset I got it in Kaggle and trained the data through Google Colab.
+## 🚀 Usage
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/yogaadipranata" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="yogaadipranata" height="30" width="40" /></a>
-<a href="https://instagram.com/yogaadipranata" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="yogaadipranata" height="30" width="40" /></a>
-</p>
+### 💻 Run Locally
+1. Clone the repository:
+```https://github.com/yogaadipranata/FaceRecognitionWithMask.git```
+2. Navigate to the project directory:
+```cd FaceRecognitionWithMask```
+3. Launch Jupyter Notebook.
+4. Open mask-detector.ipynb and run the cells step-by-step.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+### 🔗 Model Overview
+* Architecture: MobileNetV2 (for feature extraction) + custom CNN head
+* Face Detection: Haar Cascade Classifier (OpenCV)
+* Frameworks: TensorFlow & Keras
+* Evaluation Metrics: Accuracy, Precision, Recall
 
+### 📊 Results
+Based on testing, the program achieved an accuracy rate of 73%. The key strengths observed during evaluation include:
+* Accurately detects faces even when users wear accessories such as hats or glasses.
+* Capable of detecting multiple faces simultaneously.
+* Successfully identifies individuals not wearing a mask, even when their face is partially covered by a hand.
+* Real-time face detection performance.
+* Does not require high-spec hardware since the model runs via Jupyter Notebook.
 
+## 🤝 Contributing Guidelines
+1. Fork the project
+2. Create a feature branch (```git checkout -b ...```)
+3. Commit your changes (```git commit -m "..."```)
+4. Push to the branch (```git push origin ...```)
+5. Open a pull request
+
+## 📫 Contact
+I Wayan Yoga Adi Pranata
+
+[Email](mailto:yogaadipranata10@gmail.com)
